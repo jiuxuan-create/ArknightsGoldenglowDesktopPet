@@ -1,0 +1,5 @@
+# 构建工具链（过大，无法上传 GitHub）
+android_build/
+
+# APK 解包分析产物（过大且非必需）
+apk_analysis/
