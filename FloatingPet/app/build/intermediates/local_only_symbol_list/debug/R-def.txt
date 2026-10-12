@@ -1,0 +1,19 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_500
+color purple_700
+color teal_200
+color white
+drawable default_pet
+id brightnessSeek
+id brightnessValue
+id btnPermission
+id btnPickImage
+id btnResetImage
+id btnToggle
+id sizeSeek
+id sizeValue
+layout activity_main
+string app_name
+style Theme.FloatingPet

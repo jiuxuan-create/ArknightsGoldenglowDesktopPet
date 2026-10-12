@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 默认桌宠形象：一个简单的可爱黄色圆脸 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- 脸 -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M60,20 C85,20 100,40 100,65 C100,90 82,105 60,105 C38,105 20,90 20,65 C20,40 35,20 60,20 Z" />
+
+    <!-- 左眼 -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M42,55 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+
+    <!-- 右眼 -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M78,55 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+
+    <!-- 嘴（微笑） -->
+    <path
+        android:fillColor="#E65100"
+        android:strokeColor="#E65100"
+        android:strokeWidth="2"
+        android:pathData="M48,78 Q60,88 72,78" />
+
+    <!-- 腮红 -->
+    <path
+        android:fillColor="#FF8A80"
+        android:pathData="M32,70 m-6,0 a6,4 0 1,0 12,0 a6,4 0 1,0 -12,0" />
+    <path
+        android:fillColor="#FF8A80"
+        android:pathData="M88,70 m-6,0 a6,4 0 1,0 12,0 a6,4 0 1,0 -12,0" />
+</vector>

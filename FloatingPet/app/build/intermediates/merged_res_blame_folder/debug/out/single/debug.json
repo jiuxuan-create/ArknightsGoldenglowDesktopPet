@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.floatingpet.app-merged_res-40:/drawable_default_pet.xml.flat",
+        "source": "com.floatingpet.app-main-42:/drawable/default_pet.xml"
+    },
+    {
+        "merged": "com.floatingpet.app-merged_res-40:/layout_activity_main.xml.flat",
+        "source": "com.floatingpet.app-main-42:/layout/activity_main.xml"
+    }
+]

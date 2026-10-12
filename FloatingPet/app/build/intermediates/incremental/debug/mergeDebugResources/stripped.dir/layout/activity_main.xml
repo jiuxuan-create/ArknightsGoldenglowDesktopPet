@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gap="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的桌宠"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- 悬浮窗权限 -->
+    <Button
+        android:id="@+id/btnPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击开启悬浮窗权限" />
+
+    <!-- 大小调节 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="桌宠大小"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <SeekBar
+            android:id="@+id/sizeSeek"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/sizeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="120 dp"
+            android:minWidth="60dp" />
+    </LinearLayout>
+
+    <!-- 亮度调节 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="桌宠亮度"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <SeekBar
+            android:id="@+id/brightnessSeek"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/brightnessValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.00"
+            android:minWidth="60dp" />
+    </LinearLayout>
+
+    <!-- 显示/隐藏 -->
+    <Button
+        android:id="@+id/btnToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示桌宠" />
+
+    <!-- 自定义图片 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自定义桌宠形象"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gap="8dp">
+        <Button
+            android:id="@+id/btnPickImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="从相册选择图片" />
+        <Button
+            android:id="@+id/btnResetImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="恢复默认" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提示：桌宠显示后，可以用手指拖动它到屏幕任意位置，单击会有互动动画。"
+        android:textSize="13sp"
+        android:textColor="#888" />
+</LinearLayout>

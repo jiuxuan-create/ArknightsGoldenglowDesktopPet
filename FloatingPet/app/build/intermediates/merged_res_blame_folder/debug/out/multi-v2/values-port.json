@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.floatingpet.app-mergeDebugResources-38:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\kill1\\.gradle\\caches\\transforms-3\\3fdcd8fc8fdde99adb1eb4c1f0cd10bd\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
